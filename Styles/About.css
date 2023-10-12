@@ -1,0 +1,109 @@
+:root {
+  --white: #d8e9a8;
+  --black: #191a19;
+  --primary: #1e5128;
+  --secondary: #4e9f3d;
+}
+
+* {
+  font-family: "Miasma", sans-serif;
+  font-size: large;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+
+/* Footer */
+.FooterContainer {
+  width: 100%;
+  background-color: var(--primary);
+}
+
+.SocialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.SocialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--black);
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.SocialIcons a i {
+  font-size: 2rem;
+  color: var(--secondary);
+  opacity: 0.9;
+}
+
+/* JUST DOESNT WORK NO REASON PR*/
+.SocialIcons a:hover {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.SocialIcons a:hover i {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.FooterNav {
+  margin: 30px 0;
+}
+
+.FooterNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.FooterNav ul li a {
+  color: var(--black);
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.FooterNav ul li a:hover {
+  opacity: 1;
+}
+
+.FooterBot {
+  background-color: var(--secondary);
+  padding: 20px;
+  text-align: center;
+}
+
+.FooterBot p {
+  color: var(--black);
+  font-weight: lighter;
+}
+
+.Designer {
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

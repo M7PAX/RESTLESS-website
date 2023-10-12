@@ -1,54 +1,154 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Shopping</title>
-  <link href="../Styles/Home.css" rel="stylesheet" type="text/css" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>RESTLESS</title>
+    <link rel="icon" type="image/x-icon" href="../Images/web_icon.png" />
+    <link href="../Styles/Home.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.cdnfonts.com/css/miasma" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1ffd2b63c4.js" crossorigin="anonymous"></script>
+  </head>
 
-</head>
+  <body>
+    <script src="../Scripts/Home.js"></script>
 
-<body>
-  <script src="../Scripts/Home.js"></script>
+    <header class="topbar">
+      <ul class="topbar-ul">
+        <li class="topbar-li">
+          <img
+            class="topbar-brand-text"
+            src="../Images/Brand/rl_text_b.png"
+            alt="RESTLESS"
+          />
+        </li>
+      </ul>
+    </header>
 
-  <header class="topbar">
-    <ul class="topbar-ul">
-      <li class="topbar-ul">
-        <img class="topbar-logo" src="https://www.pngitem.com/pimgs/m/113-1130142_revenge-xxxtentacion-png-transparent-png.png">
-      </li>
-      <li class="topbar-ul"> 
-        <input class="search-bar" type="text" placeholder="Search...">
-      </li>
-      <li class="topbar-ul">
-        <button class="search-button" type="button"><i class='bx bx-search'></i></button>
-      </li>
-    </ul>
-  </header>
+    <nav class="sidebar">
+      <ul class="sidebar-ul">
+        <li class="sidebar-li">
+          <a href="../Pages/Home.html" class="sidebar-a" id="logo"
+            ><img
+              class="sidebar-logo"
+              src="../Images/Brand/rl_logo_b.png"
+              alt="RL"
+          /></a>
+        </li>
 
-  <nav class="sidebar">
-    <ul class="sidebar-ul">
-      <li class="sidebar-logo">
-        <a href="../Pages/Home.html" class="sidebar-a"><i class='bx bxs-low-vision'></i></a>
-      </li>
-      <li class="sidebar-li">
-        <a href="../Pages/About.html" class="sidebar-a">About</a>
-      </li>
-      <li class="sidebar-li">
-        <a href="../Pages/Cart.html" class="sidebar-a"><i class='bx bx-cart'></i></a>
-      </li>
-      <li class="sidebar-li">
-        <a href="#" class="sidebar-a"><i class='bx bx-log-in'></i></a>
-      </li>
-    </ul>
-  </nav>
+        <li class="sidebar-li">
+          <a href="../Pages/Search.html" class="sidebar-a"
+            ><i class="fa fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
 
-  <main>
-    <h1>hello</h1>
+        <li class="sidebar-li">
+          <a href="../Pages/About.html" class="sidebar-a">About</a>
+        </li>
 
-    <p>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.</p>
-  </main>
-</body>
+        <li class="sidebar-li">
+          <a href="../Pages/WishList.html" class="sidebar-a"
+            ><i class="fa fa-solid fa-bookmark"></i
+          ></a>
+        </li>
 
+        <li class="sidebar-li">
+          <a href="../Pages/Cart.html" class="sidebar-a"
+            ><i class="fa fa-solid fa-cart-shopping"></i
+          ></a>
+        </li>
+
+        <li class="sidebar-li">
+          <a href="#" class="sidebar-a"
+            ><i class="fa fa-solid fa-right-to-bracket"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="front" id="a"></div>
+          <div class="back">
+            <h1>RESTLESS SHIRT</h1>
+            <p>black shirt with the RESTLESS text</p>
+            <h2>69€</h2>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="front" id="b"></div>
+          <div class="back">
+            <h1>FLAME SKULLS SHIRT</h1>
+            <p>black shirt with three falming skulls</p>
+            <h2>69€</h2>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="front" id="c"></div>
+          <div class="back">
+            <h1>DRAGON SHIRT</h1>
+            <p>white shirt with red dragon</p>
+            <h2>69€</h2>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="front" id="d"></div>
+          <div class="back">
+            <h1>SLIME SHIRT</h1>
+            <p>green shirt with slime texture</p>
+            <h2>69€</h2>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="front" id="e"></div>
+          <div class="back">
+            <h1>RESTLESS CAP</h1>
+            <p>black cap with the RESTLESS text</p>
+            <h2>39€</h2>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <div class="FooterContainer">
+      <div class="SocialIcons">
+        <a href=""><i class="fa fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="FooterNav">
+        <ul>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Our Team</a></li>
+        </ul>
+      </div>
+
+      <div class="FooterBot">
+        <p>Copyright &copy; Designed by <span class="Designer">MIPAX</span></p>
+      </div>
+    </div>
+  </footer>
 </html>
