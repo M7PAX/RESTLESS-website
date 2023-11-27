@@ -29,6 +29,83 @@ body::-webkit-scrollbar-thumb {
   background: var(--secondary);
 }
 
+/* Topbar */
+.topbar {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  background-color: var(--primary);
+}
+
+.topbar-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.topbar-brand-text {
+  height: 80px;
+}
+
+.nothing {
+  height: 80px;
+  width: 80px;
+}
+
+/* Search Bar */
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SearchBar {
+  width: 100%;
+  max-width: 550px;
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 5px 5px;
+}
+
+.SearchBar input {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: var(--black);
+}
+
+::placeholder {
+  color: var(--black);
+}
+
+.SearchBar button i {
+  width: 25px;
+}
+
+.SearchBar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: var(--primary);
+  cursor: pointer;
+}
+
 /* Footer */
 .FooterContainer {
   width: 100%;

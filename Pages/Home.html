@@ -12,8 +12,6 @@
   </head>
 
   <body>
-    <script src="../Scripts/Home.js"></script>
-
     <header class="topbar">
       <ul class="topbar-ul">
         <li class="topbar-li">
@@ -60,9 +58,41 @@
         </li>
 
         <li class="sidebar-li">
-          <a href="#" class="sidebar-a"
-            ><i class="fa fa-solid fa-right-to-bracket"></i
-          ></a>
+          <div class="LoginButton">
+              <a href="#" class="sidebar-a" id="show-login">
+                <i class="fa fa-solid fa-right-to-bracket"></i>
+              </a>
+          </div>
+          <div class="login-popup">
+            <div class="login-box">
+              <div class="close-btn">&times;</div>
+              <div class="login-container">
+                <h2>Log In</h2>
+                <div class="inputbox">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" required>
+                  <label for="">Email</label>
+                </div>
+                <div class="inputbox">
+                  <i class="fa-solid fa-lock"></i>
+                  <input type="password" required>
+                  <label for="">Password</label>
+                </div>
+                <div class="RememberForgot">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Remember Me</label>
+                  <a href="#">Forgot password?</a>
+                </div>
+                <div class="SignIn">
+                  <button type="submit">Sign In</button>
+                </div>
+                <div class="Register">
+                  Not a member?
+                  <a href="#">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
@@ -128,6 +158,8 @@
         </div>
       </div>
     </main>
+    
+    <script src="../Scripts/Home.js"></script>
   </body>
 
   <footer>
@@ -136,13 +168,12 @@
         <a href=""><i class="fa fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa fa-brands fa-x-twitter"></i></a>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa fa-brands fa-github"></i></a>
       </div>
 
       <div class="FooterNav">
         <ul>
           <li><a href="">Contact Us</a></li>
-          <li><a href="">Our Team</a></li>
+          <li><a href="../Pages/OurTeam.html">Our Team</a></li>
         </ul>
       </div>
 

@@ -29,6 +29,37 @@ body::-webkit-scrollbar-thumb {
   background: var(--secondary);
 }
 
+/* Topbar */
+.topbar {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  background-color: var(--primary);
+}
+
+.topbar-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.topbar-brand-text {
+  height: 80px;
+}
+
+.nothing {
+  height: 80px;
+  width: 80px;
+}
+
 /* Footer */
 .FooterContainer {
   width: 100%;
