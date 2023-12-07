@@ -17,6 +17,7 @@ body {
   padding: 0;
 }
 
+/* Scrollbar */
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -159,13 +160,13 @@ body::-webkit-scrollbar-thumb {
   font-size: 25px;
 }
 
-.inputbox {
+.input-box {
   margin: 30px 0px;
   position: relative;
   width: 310px;
   border-bottom: 2px solid var(--white);
 }
-.inputbox label {
+.input-box label {
   font-size: 14px;
   color: var(--white);
   position: absolute;
@@ -181,7 +182,7 @@ input:valid ~ label {
   top: -5px;
 }
 
-.inputbox input {
+.input-box input {
   margin-top: 5px;
   width: 100%;
   height: 40px;
@@ -192,11 +193,11 @@ input:valid ~ label {
   color: var(--white);
 }
 
-.inputbox input[type="checkbox"] {
+.input-box input[type="checkbox"] {
   margin-right: 5px;
 }
 
-.inputbox button {
+.input-box button {
   width: 100%;
   height: 40px;
   border: none;
@@ -206,7 +207,7 @@ input:valid ~ label {
   color: var(--white);
 }
 
-.inputbox .fa-solid {
+.input-box .fa-solid {
   position: absolute;
   right: 8px;
   color: var(--white);
@@ -214,7 +215,7 @@ input:valid ~ label {
   top: 20px;
 }
 
-.RememberForgot {
+.remember-forgot {
   margin: -15px 0 15px;
   font-size: 12px;
   color: var(--white);
@@ -222,16 +223,16 @@ input:valid ~ label {
   justify-content: center;
 }
 
-.RememberForgot label {
+.remember-forgot label {
   margin-right: 60px;
 }
 
-.RememberForgot a {
+.remember-forgot a {
   color: var(--white);
   text-decoration: none;
 }
 
-.RememberForgot a:hover {
+.remember-forgot a:hover {
   text-decoration: underline;
 }
 
@@ -247,20 +248,20 @@ input:valid ~ label {
   font-weight: 600;
 }
 
-.Register {
+.register {
   font-size: 16px;
   color: var(--white);
   text-align: center;
   margin: 10px 0 10px;
 }
 
-.Register {
+.register {
   text-decoration: none;
   color: var(--white);
   font-weight: 600;
 }
 
-.Register a:hover {
+.register a:hover {
   text-decoration: underline;
 }
 
@@ -372,17 +373,17 @@ footer {
   margin-left: 80px;
 }
 
-.FooterContainer {
+.footer-container {
   width: 100%;
   background-color: var(--primary);
 }
 
-.SocialIcons {
+.social-icons {
   display: flex;
   justify-content: center;
 }
 
-.SocialIcons a {
+.social-icons a {
   text-decoration: none;
   padding: 10px;
   background-color: var(--black);
@@ -390,35 +391,35 @@ footer {
   border-radius: 50%;
 }
 
-.SocialIcons a i {
+.social-icons a i {
   font-size: 2rem;
   color: var(--secondary);
   opacity: 0.9;
 }
 
 /* JUST DOESNT WORK NO REASON PR*/
-.SocialIcons a:hover {
+.social-icons a:hover {
   color: var(--white);
   transition: 0.5s;
 }
 
-.SocialIcons a:hover i {
+.social-icons a:hover i {
   color: var(--white);
   transition: 0.5s;
 }
 
-.FooterNav {
+.footer-nav {
   margin: 30px 0;
 }
 
-.FooterNav ul {
+.footer-nav ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
   padding-right: 40px;
 }
 
-.FooterNav ul li a {
+.footer-nav ul li a {
   color: var(--black);
   margin: 20px;
   text-decoration: none;
@@ -427,22 +428,22 @@ footer {
   transition: 0.5s;
 }
 
-.FooterNav ul li a:hover {
+.footer-nav ul li a:hover {
   opacity: 1;
 }
 
-.FooterBot {
+.footer-bot {
   background-color: var(--secondary);
   padding: 20px;
   text-align: center;
 }
 
-.FooterBot p {
+.footer-bot p {
   color: var(--black);
   font-weight: lighter;
 }
 
-.Designer {
+.designer {
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 1px;

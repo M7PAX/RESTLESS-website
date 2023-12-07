@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CONTACT RESTLESS</title>
     <link rel="icon" type="image/x-icon" href="../Images/web_icon.png" />
-    <link href="../Styles/WishList.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/ContactUs.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.cdnfonts.com/css/miasma" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/1ffd2b63c4.js" crossorigin="anonymous"></script>
   </head>
@@ -35,25 +35,50 @@
         </li>
       </ul>
     </header>
+
+    <main>
+      <form action="">
+        <div class="input-group">
+          <input type="text" id="name" required>
+          <label for="name"><i class="fa-solid fa-user"></i>Your Name</label>
+        </div>
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="number" required>
+            <label for="number"><i class="fa-solid fa-phone"></i>Phone Nr.</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email"><i class="fa-solid fa-at"></i>Email</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"><i class="fa-solid fa-envelope"></i>Your Message</label>
+        </div>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i>SUBMIT</button>
+      </form>
+    </main>
+
   </body>
 
   <footer>
-    <div class="FooterContainer">
-      <div class="SocialIcons">
+    <div class="footer-container">
+      <div class="social-icons">
         <a href=""><i class="fa fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa fa-brands fa-x-twitter"></i></a>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
       </div>
 
-      <div class="FooterNav">
+      <div class="footer-nav">
         <ul>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">Our Team</a></li>
+          <li><a href="../Pages/ContactUs.html">Contact Us</a></li>
+          <li><a href="../Pages/OurTeam.html">Our Team</a></li>
         </ul>
       </div>
 
-      <div class="FooterBot">
-        <p>Copyright &copy; Designed by <span class="Designer">MIPAX</span></p>
+      <div class="footer-bot">
+        <p>Copyright &copy; Designed by <span class="designer">MIPAX</span></p>
       </div>
     </div>
   </footer>

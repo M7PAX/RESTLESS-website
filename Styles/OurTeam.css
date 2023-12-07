@@ -17,6 +17,7 @@ body {
   padding: 0;
 }
 
+/* Scrollbar */
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -74,7 +75,7 @@ main {
   flex-direction: column;
 }
 
-.TeamContent {
+.team-content {
   width: 70%;
   margin: 0 auto;
   display: grid;
@@ -91,7 +92,7 @@ main {
   text-align: center;
 }
 
-.TeamContent img {
+.team-content img {
   width: 70%;
   height: auto;
   border-radius: 15px;
@@ -139,17 +140,21 @@ main {
 }
 
 /* Footer */
-.FooterContainer {
+footer {
+  margin-left: 80px;
+}
+
+.footer-container {
   width: 100%;
   background-color: var(--primary);
 }
 
-.SocialIcons {
+.social-icons {
   display: flex;
   justify-content: center;
 }
 
-.SocialIcons a {
+.social-icons a {
   text-decoration: none;
   padding: 10px;
   background-color: var(--black);
@@ -157,35 +162,35 @@ main {
   border-radius: 50%;
 }
 
-.SocialIcons a i {
+.social-icons a i {
   font-size: 2rem;
   color: var(--secondary);
   opacity: 0.9;
 }
 
 /* JUST DOESNT WORK NO REASON PR*/
-.SocialIcons a:hover {
+.social-icons a:hover {
   color: var(--white);
   transition: 0.5s;
 }
 
-.SocialIcons a:hover i {
+.social-icons a:hover i {
   color: var(--white);
   transition: 0.5s;
 }
 
-.FooterNav {
+.footer-nav {
   margin: 30px 0;
 }
 
-.FooterNav ul {
+.footer-nav ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
   padding-right: 40px;
 }
 
-.FooterNav ul li a {
+.footer-nav ul li a {
   color: var(--black);
   margin: 20px;
   text-decoration: none;
@@ -194,22 +199,22 @@ main {
   transition: 0.5s;
 }
 
-.FooterNav ul li a:hover {
+.footer-nav ul li a:hover {
   opacity: 1;
 }
 
-.FooterBot {
+.footer-bot {
   background-color: var(--secondary);
   padding: 20px;
   text-align: center;
 }
 
-.FooterBot p {
+.footer-bot p {
   color: var(--black);
   font-weight: lighter;
 }
 
-.Designer {
+.designer {
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 1px;
